@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editView_input_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lines="2" />
+
+            <EditText
+                android:id="@+id/editView_input_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:hint="@string/Diary"
+                android:lines="5"
+                android:scrollHorizontally="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/spinner_folder_list"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50" />
+
+            <Spinner
+                android:id="@+id/spinner_content_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_photo_choice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/GetPhoto" />
+
+            <Button
+                android:id="@+id/button_dataset_upload"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/WriteDiary" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>
