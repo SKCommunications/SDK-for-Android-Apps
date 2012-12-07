@@ -1,0 +1,118 @@
+<resources>
+
+    <string name="consumer_key">98b9553370eb684481a576284da20bab04ebb8181</string>
+    <string name="consumer_key_secret">0b6bda1e82e3ecc71c605561f759da60</string>
+    <string name="OK">확인</string>
+    <string name="app_name">NATE-CYWORLD OPENAPI Sample</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Login">Login</string>
+    <string name="LoginMsg">로그인 후 이용하시기 바랍니다.</string>
+    <string name="Logout">Logout</string>
+    <string name="Request">Simple Request(네이트검색)</string>
+    <string name="CyHomeView">미니홈피-홈정보</string>
+    <string name="CySocialGraph">미니홈피-일촌목록</string>
+    <string name="footer_loading">불러오는 중………</string>
+    <string name="CyActivities">미니홈피-사진첩,다이어리</string>
+    <string name="CyPostPhoto">미니홈피-사진첩작성</string>
+    <string name="Content">이 사진은 어떤 내용인가요?</string>
+    <string name="Diary">오늘은 어떤 이야기가 있나요?</string>
+    <string name="NateOnNote">네이트온 버디에게 작성할 메세지를 입력하세요.</string>
+    <string name="GetPhoto">사진 가져오기</string>
+    <string name="PostPhoto">사진 올리기</string>
+    <string name="WriteDiary">다이어리 쓰기</string>
+    <string name="SendNote">쪽지 보내기</string>
+    <string name="FolderSelect">폴더선택하기</string>
+    <string name="FolderName">폴더이름</string>
+    <string name="ContentType">공개설정</string>
+    <string name="ContentTypeAllOpen">전체공개</string>
+    <string name="ContentTypeSecret">비공개</string>
+    <string name="ContentTypeOneDeg">일촌공개</string>
+    <string name="ContentPostOK">사진등록이 완료 되었습니다.</string>
+    <string name="ContentDiaryOK">다이어리 작성이 완료 되었습니다.</string>
+    <string name="ContentSendNoteOK">쪽지발송이 완료 되었습니다.</string>
+    <string name="ContentNateOnBuddyOver">네이트온 버디리스트가 더이상 없습니다.</string>
+
+    <string name="Explorer_url">URL</string>
+    <string name="Explorer_method">METHOD</string>
+    <string name="Explorer_get">GET</string>
+    <string name="Explorer_post">POST</string>
+    <string name="Explorer_endpointHint">호출할 EndPoint URL</string>
+    <string name="Explorer_querystring">Querystring Parameters</string>
+    <string name="Explorer_querystring_key">key</string>
+    <string name="Explorer_querystring_value">value</string>
+    
+    <string-array name="content_sample_menu_array">
+        <item>Cyworld</item>
+        <item>NateON</item>
+        <item>API-Explorer</item>
+        <item>Nate-Search</item>
+    </string-array>
+    
+    <string-array name="content_cyworld_menu_array">
+        <item>일촌</item>
+        <item>사진첩</item>
+        <item>다이어리</item>
+    </string-array>
+    
+    <string-array name="content_search_menu_array">
+        <item>자동완성</item>
+        <item>왜떴을까?</item>
+    </string-array>
+    
+    <string-array name="content_type_array">
+        <item>비공개</item>
+        <item>일촌공개</item>
+        <item>전체공개</item>
+    </string-array>
+    
+    <string-array name="content_endpoint_name_array">
+        <item>EndPoint 직접입력</item>
+        <item>미니홈피-일촌리스트</item>
+        <item>미니홈피-폴더 목록보기</item>
+        <item>미니홈피-사진첩 작성하기</item>
+        <item>다이어리-폴더 목록보기</item>
+        <item>다이어리 게시물 작성하기</item>
+        <item>네이트온 친구목록 조회</item>
+        <item>네이트온 쪽지발송</item>
+        <item>검색-자동완성</item>
+        <item>검색-왜떴을까?</item>
+        <item>게시판-게시물 목록조회</item>
+        <item>게시판-게시물 상세조회</item>
+    </string-array>
+    
+    <string-array name="content_endpoint_url_array">
+        <item></item>
+        <item><![CDATA[post&https://openapi.nate.com/OApi/RestApiSSL/CY/200110/xml_RetrieveOnedegList/v1]]></item>
+        <item><![CDATA[post&http://openapi.nate.com/OApi/RestApi/CY/200110/xml_RetrieveFolderList/v1]]></item>
+        <item><![CDATA[post&https://openapi.nate.com/OApi/RestApiSSL/CY/200110/xml_RegisterPhotoItem/v1]]></item>
+        <item><![CDATA[post&http://openapi.nate.com/OApi/RestApi/CY/200110/xml_RetrieveFolderList/v1]]></item>
+        <item><![CDATA[post&https://openapi.nate.com/OApi/RestApiSSL/CY/200110/xml_RegisterMyDiaryItem/v1]]></item>
+        <item><![CDATA[post&https://openapi.nate.com/OApi/RestApiSSL/ON/250020/nateon_GetBuddyList/v1]]></item>
+        <item><![CDATA[post&https://openapi.nate.com/OApi/RestApiSSL/ON/250060/nateon_SendNote/v1]]></item>        
+        <item><![CDATA[get&https://openapi.nate.com/OApi/RestApiSSL/NC/300010/autoComplete/v1]]></item>
+        <item><![CDATA[get&https://openapi.nate.com/OApi/RestApiSSL/NC/300010/searchHotIssue/v1]]></item>
+        <item><![CDATA[post&https://openapi.nate.com/OApi/RestApiSSL/CY/200110/xml_RetrieveBoardItemList/v1]]></item>
+        <item><![CDATA[post&https://openapi.nate.com/OApi/RestApiSSL/CY/200110/xml_RetrieveBoardItem/v1]]></item>
+    </string-array>
+    
+    <string-array name="content_endpoint_url_array_param">
+        <item></item>
+        <item><![CDATA[]]></item>
+        <item><![CDATA[targetId=&menuType=2]]></item>
+        <item><![CDATA[targetId=&folderNo=&title=제목&content=내용&itemOpen=secret&photoUrls=]]></item>
+        <item><![CDATA[targetId=&menuType=12]]></item>
+        <item><![CDATA[targetId=&folderNo=&content=&itemOpen=secret&face=&weather=&photoUrl=]]></item>
+        <item><![CDATA[range=0,30&order=name.asc]]></item>
+        <item><![CDATA[ref=&body=&confirm=N]]></item>        
+        <item><![CDATA[q=&rp=nopa&rf=json&m=&qe=utf8&re=utf8]]></item>
+        <item><![CDATA[list_type=D&page=1&page_size=20]]></item>
+        <item><![CDATA[targetId=&folderNo=0&cPage=1&perPage=4]]></item>
+        <item><![CDATA[targetId=&folderNo=25&itemSeq=]]></item>
+    </string-array>
+
+    <string name="NOSocialGrapth">네이트온-버디목록</string>
+    <string name="NOMessenger">네이트온-쪽지발송</string>
+    <string name="NSAutoCompleter">네이트검색-자동완성</string>
+    <string name="NSTrendSearcher">네이트검색-왜떴을까</string>
+
+</resources>
